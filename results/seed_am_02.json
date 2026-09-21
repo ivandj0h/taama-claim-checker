@@ -1,0 +1,894 @@
+{
+  "product": {
+    "slug": "seed_am_02",
+    "name": "Seed AM-02 Energy + Focus",
+    "market": "AU",
+    "authority": "TGA",
+    "tier": "aust_l"
+  },
+  "input_type": "raw_text",
+  "input_file": "inputs/seed_am_02.txt",
+  "stable": true,
+  "runs": [
+    {
+      "run": 1,
+      "claims": [
+        {
+          "claim": "Fast-acting energy within 1 hour",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Energy support for your body",
+          "verdict": "red",
+          "status": "matched_rule",
+          "reason": "The therapeutic wording is outside the low-level permitted-indication patterns covered by this scoped AUST L rule set.",
+          "rule_id": "AU-TGA-CLAIM-001",
+          "authority": "TGA",
+          "claim_type": "unrecognised_therapeutic_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Claim-axis triggers (TGA)",
+            "page": null,
+            "excerpt": "Therapeutic claim not matching a permitted indication."
+          }
+        },
+        {
+          "claim": "Support for the gut-brain axis",
+          "verdict": "red",
+          "status": "matched_rule",
+          "reason": "The therapeutic wording is outside the low-level permitted-indication patterns covered by this scoped AUST L rule set.",
+          "rule_id": "AU-TGA-CLAIM-001",
+          "authority": "TGA",
+          "claim_type": "unrecognised_therapeutic_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Claim-axis triggers (TGA)",
+            "page": null,
+            "excerpt": "Therapeutic claim not matching a permitted indication."
+          }
+        },
+        {
+          "claim": "Caffeine-free",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Less than $1.50 per serving",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "2-in-1 Formulation for Lasting Energy",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Seed's ViaCap delivery system is engineered for targeted nutrient delivery along the GI tract.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Nootropics from ginseng root, theacrine, and methylliberine sustain energy and sharpen focus.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Prebiotics from Japanese wasabi, B vitamins, and a gut-brain postbiotic.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Energy That Peaks Without the Crash",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "A fast-acting nootropic compound derived from kucha, a wild pu'er tea.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "A clinically proven adaptogen that promotes focus and calming sensations during daily stress.",
+          "verdict": "red",
+          "status": "matched_rule",
+          "reason": "The therapeutic wording is outside the low-level permitted-indication patterns covered by this scoped AUST L rule set.",
+          "rule_id": "AU-TGA-CLAIM-001",
+          "authority": "TGA",
+          "claim_type": "unrecognised_therapeutic_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Claim-axis triggers (TGA)",
+            "page": null,
+            "excerpt": "Therapeutic claim not matching a permitted indication."
+          }
+        },
+        {
+          "claim": "A natural, tea-derived compound with a molecular structure similar to caffeine.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Safe to take with coffee or tea.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "With Ginseng Root, B Vitamins, and Multi-Peak Energy Complex",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Delivers fast-acting and sustained energy",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Improves cognitive function in 1 hr",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped claim maps to the consultant-provided cognitive-performance indication family.",
+          "rule_id": "AU-TGA-CLAIM-004",
+          "authority": "TGA",
+          "claim_type": "permitted_cognitive_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L / Claims / indications",
+            "page": null,
+            "excerpt": "Low-level permitted indications only."
+          }
+        },
+        {
+          "claim": "Increases attention for up to 6 hrs",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Consistent, daily use unlocks the full benefits of AM-02. When and how you feel results may vary based on your body and physiology. Maintain your routine for improved impact over time.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Unlock Energy That Lasts",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Works within 1 hour, lasts for up to 6 hours",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Sustained, caffeine-free energy",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Improves focus and attention",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped claim maps to the consultant-provided cognitive-performance indication family.",
+          "rule_id": "AU-TGA-CLAIM-005",
+          "authority": "TGA",
+          "claim_type": "permitted_focus_attention_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L / Claims / indications",
+            "page": null,
+            "excerpt": "Low-level permitted indications only."
+          }
+        },
+        {
+          "claim": "Combats brain fog and mental fatigue",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped claim maps to the consultant-provided mental-fatigue indication family.",
+          "rule_id": "AU-TGA-CLAIM-006",
+          "authority": "TGA",
+          "claim_type": "permitted_mental_fatigue_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L / Claims / indications",
+            "page": null,
+            "excerpt": "Low-level permitted indications only."
+          }
+        },
+        {
+          "claim": "Benefits That Build Over Time",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "AM-02 delivers both immediate effects and restores optimal energy levels with consistent daily use.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Improves focus and attention for up to 6 hours.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Builds resistance to stress to enhance cognitive performance.",
+          "verdict": "red",
+          "status": "matched_rule",
+          "reason": "The therapeutic wording is outside the low-level permitted-indication patterns covered by this scoped AUST L rule set.",
+          "rule_id": "AU-TGA-CLAIM-001",
+          "authority": "TGA",
+          "claim_type": "unrecognised_therapeutic_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Claim-axis triggers (TGA)",
+            "page": null,
+            "excerpt": "Therapeutic claim not matching a permitted indication."
+          }
+        },
+        {
+          "claim": "Protects key structures of the brain to maintain mental function.",
+          "verdict": "red",
+          "status": "matched_rule",
+          "reason": "The therapeutic wording is outside the low-level permitted-indication patterns covered by this scoped AUST L rule set.",
+          "rule_id": "AU-TGA-CLAIM-001",
+          "authority": "TGA",
+          "claim_type": "unrecognised_therapeutic_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Claim-axis triggers (TGA)",
+            "page": null,
+            "excerpt": "Therapeutic claim not matching a permitted indication."
+          }
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "claims": [
+        {
+          "claim": "Fast-acting energy within 1 hour",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Energy support for your body",
+          "verdict": "red",
+          "status": "matched_rule",
+          "reason": "The therapeutic wording is outside the low-level permitted-indication patterns covered by this scoped AUST L rule set.",
+          "rule_id": "AU-TGA-CLAIM-001",
+          "authority": "TGA",
+          "claim_type": "unrecognised_therapeutic_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Claim-axis triggers (TGA)",
+            "page": null,
+            "excerpt": "Therapeutic claim not matching a permitted indication."
+          }
+        },
+        {
+          "claim": "Support for the gut-brain axis",
+          "verdict": "red",
+          "status": "matched_rule",
+          "reason": "The therapeutic wording is outside the low-level permitted-indication patterns covered by this scoped AUST L rule set.",
+          "rule_id": "AU-TGA-CLAIM-001",
+          "authority": "TGA",
+          "claim_type": "unrecognised_therapeutic_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Claim-axis triggers (TGA)",
+            "page": null,
+            "excerpt": "Therapeutic claim not matching a permitted indication."
+          }
+        },
+        {
+          "claim": "Caffeine-free",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Less than $1.50 per serving",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "2-in-1 Formulation for Lasting Energy",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Seed's ViaCap delivery system is engineered for targeted nutrient delivery along the GI tract.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Nootropics from ginseng root, theacrine, and methylliberine sustain energy and sharpen focus.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Prebiotics from Japanese wasabi, B vitamins, and a gut-brain postbiotic.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Energy That Peaks Without the Crash",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "A fast-acting nootropic compound derived from kucha, a wild pu'er tea.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "A clinically proven adaptogen that promotes focus and calming sensations during daily stress.",
+          "verdict": "red",
+          "status": "matched_rule",
+          "reason": "The therapeutic wording is outside the low-level permitted-indication patterns covered by this scoped AUST L rule set.",
+          "rule_id": "AU-TGA-CLAIM-001",
+          "authority": "TGA",
+          "claim_type": "unrecognised_therapeutic_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Claim-axis triggers (TGA)",
+            "page": null,
+            "excerpt": "Therapeutic claim not matching a permitted indication."
+          }
+        },
+        {
+          "claim": "A natural, tea-derived compound with a molecular structure similar to caffeine.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Safe to take with coffee or tea.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "With Ginseng Root, B Vitamins, and Multi-Peak Energy Complex",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Delivers fast-acting and sustained energy",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Improves cognitive function in 1 hr",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped claim maps to the consultant-provided cognitive-performance indication family.",
+          "rule_id": "AU-TGA-CLAIM-004",
+          "authority": "TGA",
+          "claim_type": "permitted_cognitive_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L / Claims / indications",
+            "page": null,
+            "excerpt": "Low-level permitted indications only."
+          }
+        },
+        {
+          "claim": "Increases attention for up to 6 hrs",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Consistent, daily use unlocks the full benefits of AM-02. When and how you feel results may vary based on your body and physiology. Maintain your routine for improved impact over time.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Unlock Energy That Lasts",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Works within 1 hour, lasts for up to 6 hours",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Sustained, caffeine-free energy",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Improves focus and attention",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped claim maps to the consultant-provided cognitive-performance indication family.",
+          "rule_id": "AU-TGA-CLAIM-005",
+          "authority": "TGA",
+          "claim_type": "permitted_focus_attention_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L / Claims / indications",
+            "page": null,
+            "excerpt": "Low-level permitted indications only."
+          }
+        },
+        {
+          "claim": "Combats brain fog and mental fatigue",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped claim maps to the consultant-provided mental-fatigue indication family.",
+          "rule_id": "AU-TGA-CLAIM-006",
+          "authority": "TGA",
+          "claim_type": "permitted_mental_fatigue_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L / Claims / indications",
+            "page": null,
+            "excerpt": "Low-level permitted indications only."
+          }
+        },
+        {
+          "claim": "Benefits That Build Over Time",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "AM-02 delivers both immediate effects and restores optimal energy levels with consistent daily use.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Improves focus and attention for up to 6 hours.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
+          "rule_id": "AU-TGA-CLAIM-002",
+          "authority": "TGA",
+          "claim_type": "evidence_or_assessment_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+            "page": null,
+            "excerpt": "Evidence for the claim has not been provided."
+          }
+        },
+        {
+          "claim": "Builds resistance to stress to enhance cognitive performance.",
+          "verdict": "red",
+          "status": "matched_rule",
+          "reason": "The therapeutic wording is outside the low-level permitted-indication patterns covered by this scoped AUST L rule set.",
+          "rule_id": "AU-TGA-CLAIM-001",
+          "authority": "TGA",
+          "claim_type": "unrecognised_therapeutic_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Claim-axis triggers (TGA)",
+            "page": null,
+            "excerpt": "Therapeutic claim not matching a permitted indication."
+          }
+        },
+        {
+          "claim": "Protects key structures of the brain to maintain mental function.",
+          "verdict": "red",
+          "status": "matched_rule",
+          "reason": "The therapeutic wording is outside the low-level permitted-indication patterns covered by this scoped AUST L rule set.",
+          "rule_id": "AU-TGA-CLAIM-001",
+          "authority": "TGA",
+          "claim_type": "unrecognised_therapeutic_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Claim-axis triggers (TGA)",
+            "page": null,
+            "excerpt": "Therapeutic claim not matching a permitted indication."
+          }
+        }
+      ]
+    }
+  ]
+}

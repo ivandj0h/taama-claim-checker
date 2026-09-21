@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "comvita_kids_herbal_syrup",
+    "name": "Comvita Kids Herbal Syrup",
+    "authority": "TGA",
+    "tier": "aust_l",
+    "input": "inputs/comvita_kids_herbal_syrup.txt"
+  },
+  {
+    "slug": "arepa_brain_drink",
+    "name": "Arepa Brain Drink",
+    "authority": "FSANZ",
+    "tier": null,
+    "input": "inputs/arepa_brain_drink.txt"
+  },
+  {
+    "slug": "seed_am_02",
+    "name": "Seed AM-02 Energy + Focus",
+    "authority": "TGA",
+    "tier": "aust_l",
+    "input": "inputs/seed_am_02.txt"
+  }
+]
