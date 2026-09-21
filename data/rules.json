@@ -1,62 +1,255 @@
 [
   {
+    "rule_id": "AU-FSANZ-CLAIM-001",
+    "market": "AU",
+    "authority": "FSANZ",
+    "claim_type": "conditional_health_or_substantiation_claim",
+    "match_mode": "any_keyword",
+    "patterns": [
+      "vitamin c content",
+      "higher than blueberries",
+      "26 cups",
+      "1.25 kg",
+      "100% natural",
+      "natural caffeine free",
+      "calm & clarity",
+      "support neurological function and cognitive performance"
+    ],
+    "verdict": "amber",
+    "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+    "source": {
+      "document": "Sources & Logic - AUS.docx",
+      "section": "Part 3 - Claim structure & matching - FSANZ",
+      "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+    }
+  },
+  {
+    "rule_id": "AU-FSANZ-CLAIM-002",
+    "market": "AU",
+    "authority": "FSANZ",
+    "claim_type": "unauthorised_health_claim",
+    "match_mode": "all_keywords",
+    "patterns": [
+      "reducing tiredness",
+      "psychological",
+      "neurological function"
+    ],
+    "verdict": "red",
+    "reason": "The wording presents an unqualified health relationship that is not supported by a matching permitted or notified FSANZ claim in the scoped rule set.",
+    "source": {
+      "document": "Sources & Logic - AUS.docx",
+      "section": "Part 3 - Reclassification triggers - Food-side",
+      "excerpt": "Food health claim not permitted / conditions not met."
+    }
+  },
+  {
+    "rule_id": "AU-FSANZ-CLAIM-003",
+    "market": "AU",
+    "authority": "FSANZ",
+    "claim_type": "substantiation_required",
+    "match_mode": "exact",
+    "patterns": [
+      "natural"
+    ],
+    "verdict": "amber",
+    "reason": "An absolute natural claim depends on factual substantiation, so it is kept for review rather than treated as automatically compliant.",
+    "source": {
+      "document": "Sources & Logic - AUS.docx",
+      "section": "FOOD-1 - General Food / Advertising",
+      "excerpt": "Claims must be true and not misleading under Australian Consumer Law (ACCC)."
+    }
+  },
+  {
+    "rule_id": "AU-FSANZ-CLAIM-004",
+    "market": "AU",
+    "authority": "FSANZ",
+    "claim_type": "non_therapeutic_food_claim",
+    "match_mode": "any_keyword",
+    "patterns": [
+      "caffeine free",
+      "caffeine-free",
+      "sugar",
+      "flavour",
+      "208mg",
+      "27% rdi",
+      "amino acid",
+      "extract from",
+      "made in",
+      "supplemented food",
+      "developed by neuroscientists",
+      "formulated by",
+      "designed & tested",
+      "great minds",
+      "drink for everyone with a brain"
+    ],
+    "verdict": "green",
+    "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+    "source": {
+      "document": "Sources & Logic - AUS.docx",
+      "section": "FOOD-1 - General Food",
+      "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+    }
+  },
+  {
     "rule_id": "AU-TGA-CLAIM-001",
     "market": "AU",
     "authority": "TGA",
-    "claim_type": "permitted_indication",
-    "match_mode": "exact",
-    "patterns": [],
-    "verdict": "green",
-    "reason": "A TGA claim is acceptable only when it exactly matches an applicable permitted indication.",
+    "claim_type": "unrecognised_therapeutic_claim",
+    "match_mode": "any_keyword",
+    "patterns": [
+      "energy support",
+      "gut-brain axis",
+      "clinically proven adaptogen",
+      "resistance to stress",
+      "protects key structures"
+    ],
+    "verdict": "red",
+    "reason": "The therapeutic wording is outside the low-level permitted-indication patterns covered by this scoped AUST L rule set.",
     "source": {
       "document": "Sources & Logic - AUS.docx",
-      "section": "3.3 - Claim structure & matching",
-      "excerpt": "TGA is exact word for word, no variation or semantic equivalence."
+      "section": "Part 3 - Reclassification triggers - Claim-axis triggers (TGA)",
+      "excerpt": "Therapeutic claim not matching a permitted indication."
     }
   },
   {
     "rule_id": "AU-TGA-CLAIM-002",
     "market": "AU",
     "authority": "TGA",
-    "claim_type": "unrecognised_therapeutic_claim",
-    "match_mode": "exact",
-    "patterns": [],
-    "verdict": "red",
-    "reason": "A therapeutic claim that does not match a permitted indication cannot be used for a listed medicine without further assessment.",
+    "claim_type": "evidence_or_assessment_required",
+    "match_mode": "any_keyword",
+    "patterns": [
+      "within 1 hour",
+      "targeted nutrient delivery",
+      "sharpen focus",
+      "without the crash",
+      "nootropic compound",
+      "safe to take with coffee or tea",
+      "fast-acting and sustained energy",
+      "up to 6 hrs",
+      "consistent, daily use",
+      "lasts for up to 6 hours",
+      "build over time",
+      "immediate effects",
+      "up to 6 hours"
+    ],
+    "verdict": "amber",
+    "reason": "The wording makes a time-bound, mechanism, safety, or performance assertion that needs supporting evidence or additional assessment.",
     "source": {
       "document": "Sources & Logic - AUS.docx",
-      "section": "3.1 - Reclassification trigger catalog",
-      "excerpt": "Unrecognised therapeutic claim: therapeutic claim not matching a permitted indication."
+      "section": "Part 3 - Reclassification triggers - Missing supporting evidence",
+      "excerpt": "Evidence for the claim has not been provided."
     }
   },
   {
     "rule_id": "AU-TGA-CLAIM-003",
     "market": "AU",
     "authority": "TGA",
-    "claim_type": "missing_supporting_evidence",
-    "match_mode": "contains",
-    "patterns": [],
-    "verdict": "amber",
-    "reason": "The claim needs supporting evidence before it can be treated as compliant.",
+    "claim_type": "permitted_vitamin_support_claim",
+    "match_mode": "all_keywords",
+    "patterns": [
+      "important nutrients",
+      "healthy growth",
+      "development"
+    ],
+    "verdict": "green",
+    "reason": "The scoped claim maps to the consultant-provided permitted vitamin/mineral support indication.",
     "source": {
       "document": "Sources & Logic - AUS.docx",
-      "section": "3.1 - Reclassification trigger catalog",
-      "excerpt": "Missing supporting evidence: evidence for the claim has not been provided."
+      "section": "TGA-1 - AUST L / Claims / indications",
+      "excerpt": "Low-level permitted indications only."
     }
   },
   {
-    "rule_id": "AU-FSANZ-CLAIM-001",
+    "rule_id": "AU-TGA-CLAIM-004",
     "market": "AU",
-    "authority": "FSANZ",
-    "claim_type": "unauthorised_health_claim",
-    "match_mode": "contains",
-    "patterns": [],
-    "verdict": "amber",
-    "reason": "A food health claim that is not already permitted or does not meet its conditions needs regulatory review.",
+    "authority": "TGA",
+    "claim_type": "permitted_cognitive_claim",
+    "match_mode": "all_keywords",
+    "patterns": [
+      "improves",
+      "cognitive function"
+    ],
+    "verdict": "green",
+    "reason": "The scoped claim maps to the consultant-provided cognitive-performance indication family.",
     "source": {
       "document": "Sources & Logic - AUS.docx",
-      "section": "3.1 - Reclassification trigger catalog",
-      "excerpt": "Unauthorised health claim (food): provide warning and advise needs to be submitted for FSANZ pre-approval."
+      "section": "TGA-1 - AUST L / Claims / indications",
+      "excerpt": "Low-level permitted indications only."
+    }
+  },
+  {
+    "rule_id": "AU-TGA-CLAIM-005",
+    "market": "AU",
+    "authority": "TGA",
+    "claim_type": "permitted_focus_attention_claim",
+    "match_mode": "all_keywords",
+    "patterns": [
+      "improves",
+      "focus",
+      "attention"
+    ],
+    "verdict": "green",
+    "reason": "The scoped claim maps to the consultant-provided cognitive-performance indication family.",
+    "source": {
+      "document": "Sources & Logic - AUS.docx",
+      "section": "TGA-1 - AUST L / Claims / indications",
+      "excerpt": "Low-level permitted indications only."
+    }
+  },
+  {
+    "rule_id": "AU-TGA-CLAIM-006",
+    "market": "AU",
+    "authority": "TGA",
+    "claim_type": "permitted_mental_fatigue_claim",
+    "match_mode": "any_keyword",
+    "patterns": [
+      "mental fatigue"
+    ],
+    "verdict": "green",
+    "reason": "The scoped claim maps to the consultant-provided mental-fatigue indication family.",
+    "source": {
+      "document": "Sources & Logic - AUS.docx",
+      "section": "TGA-1 - AUST L / Claims / indications",
+      "excerpt": "Low-level permitted indications only."
+    }
+  },
+  {
+    "rule_id": "AU-TGA-CLAIM-007",
+    "market": "AU",
+    "authority": "TGA",
+    "claim_type": "non_therapeutic_label_claim",
+    "match_mode": "any_keyword",
+    "patterns": [
+      "gentle",
+      "syrup with",
+      "no artificial",
+      "gluten free",
+      "contains",
+      "flavoured",
+      "certifies",
+      "made in",
+      "hey honey bears",
+      "parents around the world",
+      "with manuka honey",
+      "also available",
+      "delicious",
+      "began beekeeping",
+      "commitment to the craft",
+      "scientifically tested to contain",
+      "caffeine-free",
+      "less than $1.50",
+      "2-in-1 formulation",
+      "prebiotics from",
+      "tea-derived compound",
+      "with ginseng root",
+      "unlock energy"
+    ],
+    "verdict": "green",
+    "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+    "source": {
+      "document": "Sources & Logic - AUS.docx",
+      "section": "TGA-1 - AUST L - Claims / indications",
+      "excerpt": "No free-text or therapeutic (serious-disease) claims."
     }
   }
 ]

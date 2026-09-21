@@ -111,3 +111,21 @@ def test_every_ground_truth_claim_is_traceable_to_source_row():
             }
             assert isinstance(claim["source_row"], int)
             assert claim["source_row"] > 0
+
+
+def test_ground_truth_products_include_regulatory_context():
+    data = load_ground_truth()
+
+    products = {
+        product["slug"]: product
+        for product in data["products"]
+    }
+
+    assert products["comvita_kids_herbal_syrup"]["authority"] == "TGA"
+    assert products["comvita_kids_herbal_syrup"]["tier"] == "aust_l"
+
+    assert products["arepa_brain_drink"]["authority"] == "FSANZ"
+    assert products["arepa_brain_drink"]["tier"] is None
+
+    assert products["seed_am_02"]["authority"] == "TGA"
+    assert products["seed_am_02"]["tier"] == "aust_l"

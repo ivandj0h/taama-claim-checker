@@ -1,7 +1,9 @@
+import unicodedata
 from collections.abc import Iterable
 
 from src.models import (
     ClaimEvaluation,
+    EvaluationContext,
     EvaluationStatus,
     MatchMode,
     RegulatoryRule,
@@ -10,6 +12,7 @@ from src.models import (
 
 
 def normalize_text(value: str) -> str:
+    value = unicodedata.normalize("NFKC", value)
     return " ".join(value.lower().strip().split())
 
 
@@ -51,11 +54,43 @@ def rule_matches(claim: str, rule: RegulatoryRule) -> bool:
     return False
 
 
+def rule_applies_to_context(
+    rule: RegulatoryRule,
+    context: EvaluationContext | None,
+) -> bool:
+    if context is None:
+        return True
+
+    if (
+        normalize_text(rule.authority)
+        != normalize_text(context.authority)
+    ):
+        return False
+
+    if (
+        context.claim_type is not None
+        and rule.applicable_claim_types
+    ):
+        allowed_claim_types = {
+            normalize_text(value)
+            for value in rule.applicable_claim_types
+        }
+
+        if normalize_text(context.claim_type) not in allowed_claim_types:
+            return False
+
+    return True
+
+
 def evaluate_claim(
     claim: str,
     rules: Iterable[RegulatoryRule],
+    context: EvaluationContext | None = None,
 ) -> ClaimEvaluation:
     for rule in rules:
+        if not rule_applies_to_context(rule, context):
+            continue
+
         if rule_matches(claim, rule):
             return ClaimEvaluation(
                 claim=claim,
@@ -79,10 +114,15 @@ def evaluate_claim(
 def evaluate_claims(
     claims: Iterable[str],
     rules: Iterable[RegulatoryRule],
+    context: EvaluationContext | None = None,
 ) -> list[ClaimEvaluation]:
     rule_list = list(rules)
 
     return [
-        evaluate_claim(claim, rule_list)
+        evaluate_claim(
+            claim,
+            rule_list,
+            context=context,
+        )
         for claim in claims
     ]

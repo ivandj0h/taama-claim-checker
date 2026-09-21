@@ -1,5 +1,6 @@
 from src.checker import evaluate_claim, rule_matches
 from src.models import (
+    EvaluationContext,
     EvaluationStatus,
     MatchMode,
     RegulatoryRule,
@@ -78,3 +79,55 @@ def test_unknown_claim_returns_needs_review():
     assert result.rule_id is None
     assert result.source is None
     assert "NEEDS REVIEW" in result.reason
+
+
+def test_tga_rule_does_not_match_fsanz_context():
+    rule = make_rule(
+        rule_id="AU-TGA-TEST-001",
+        patterns=["supports immune system health"],
+    )
+
+    result = evaluate_claim(
+        "supports immune system health",
+        [rule],
+        context=EvaluationContext(authority="FSANZ"),
+    )
+
+    assert result.verdict == Verdict.AMBER
+    assert result.status == EvaluationStatus.NO_MATCHING_RULE
+    assert result.rule_id is None
+    assert result.source is None
+
+
+
+def test_rule_respects_applicable_claim_type_context():
+    rule = make_rule(
+        rule_id="AU-TGA-TEST-002",
+        patterns=["supports immune system health"],
+    )
+
+    rule.applicable_claim_types = ["therapeutic"]
+
+    matching_result = evaluate_claim(
+        "supports immune system health",
+        [rule],
+        context=EvaluationContext(
+            authority="TGA",
+            claim_type="therapeutic",
+        ),
+    )
+
+    rejected_result = evaluate_claim(
+        "supports immune system health",
+        [rule],
+        context=EvaluationContext(
+            authority="TGA",
+            claim_type="compositional",
+        ),
+    )
+
+    assert matching_result.verdict == Verdict.GREEN
+    assert matching_result.status == EvaluationStatus.MATCHED_RULE
+
+    assert rejected_result.verdict == Verdict.AMBER
+    assert rejected_result.status == EvaluationStatus.NO_MATCHING_RULE
