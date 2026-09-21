@@ -17,6 +17,11 @@ class MatchMode(str, Enum):
     ALL_KEYWORDS = "all_keywords"
 
 
+class EvaluationStatus(str, Enum):
+    MATCHED_RULE = "matched_rule"
+    NO_MATCHING_RULE = "no_matching_rule"
+
+
 class SourceReference(BaseModel):
     document: str
     section: str
@@ -37,3 +42,16 @@ class RegulatoryRule(BaseModel):
     reason: str
 
     source: SourceReference
+
+
+class ClaimEvaluation(BaseModel):
+    claim: str
+    verdict: Verdict
+    status: EvaluationStatus
+
+    reason: str
+
+    rule_id: Optional[str] = None
+    authority: Optional[str] = None
+    claim_type: Optional[str] = None
+    source: Optional[SourceReference] = None
