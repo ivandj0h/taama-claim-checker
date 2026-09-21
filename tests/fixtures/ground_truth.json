@@ -196,7 +196,10 @@
           "comment": null,
           "source_row": 58
         }
-      ]
+      ],
+      "authority": "TGA",
+      "tier": "aust_l",
+      "product_type": "supplements"
     },
     {
       "slug": "arepa_brain_drink",
@@ -432,7 +435,10 @@
           "comment": null,
           "source_row": 69
         }
-      ]
+      ],
+      "authority": "FSANZ",
+      "tier": null,
+      "product_type": "food"
     },
     {
       "slug": "seed_am_02",
@@ -728,7 +734,10 @@
           "comment": "incorrect wording or requires AUSTL-A",
           "source_row": 86
         }
-      ]
+      ],
+      "authority": "TGA",
+      "tier": "aust_l",
+      "product_type": "supplements"
     }
   ]
 }

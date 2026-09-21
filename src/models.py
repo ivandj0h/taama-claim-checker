@@ -34,6 +34,7 @@ class RegulatoryRule(BaseModel):
     market: str = "AU"
     authority: str
     claim_type: str
+    applicable_claim_types: list[str] = Field(default_factory=list)
 
     match_mode: MatchMode
     patterns: list[str] = Field(default_factory=list)
@@ -42,6 +43,12 @@ class RegulatoryRule(BaseModel):
     reason: str
 
     source: SourceReference
+
+
+class EvaluationContext(BaseModel):
+    authority: str
+    claim_type: Optional[str] = None
+    tier: Optional[str] = None
 
 
 class ClaimEvaluation(BaseModel):
