@@ -1,0 +1,62 @@
+[
+  {
+    "rule_id": "AU-TGA-CLAIM-001",
+    "market": "AU",
+    "authority": "TGA",
+    "claim_type": "permitted_indication",
+    "match_mode": "exact",
+    "patterns": [],
+    "verdict": "green",
+    "reason": "A TGA claim is acceptable only when it exactly matches an applicable permitted indication.",
+    "source": {
+      "document": "Sources & Logic - AUS.docx",
+      "section": "3.3 - Claim structure & matching",
+      "excerpt": "TGA is exact word for word, no variation or semantic equivalence."
+    }
+  },
+  {
+    "rule_id": "AU-TGA-CLAIM-002",
+    "market": "AU",
+    "authority": "TGA",
+    "claim_type": "unrecognised_therapeutic_claim",
+    "match_mode": "exact",
+    "patterns": [],
+    "verdict": "red",
+    "reason": "A therapeutic claim that does not match a permitted indication cannot be used for a listed medicine without further assessment.",
+    "source": {
+      "document": "Sources & Logic - AUS.docx",
+      "section": "3.1 - Reclassification trigger catalog",
+      "excerpt": "Unrecognised therapeutic claim: therapeutic claim not matching a permitted indication."
+    }
+  },
+  {
+    "rule_id": "AU-TGA-CLAIM-003",
+    "market": "AU",
+    "authority": "TGA",
+    "claim_type": "missing_supporting_evidence",
+    "match_mode": "contains",
+    "patterns": [],
+    "verdict": "amber",
+    "reason": "The claim needs supporting evidence before it can be treated as compliant.",
+    "source": {
+      "document": "Sources & Logic - AUS.docx",
+      "section": "3.1 - Reclassification trigger catalog",
+      "excerpt": "Missing supporting evidence: evidence for the claim has not been provided."
+    }
+  },
+  {
+    "rule_id": "AU-FSANZ-CLAIM-001",
+    "market": "AU",
+    "authority": "FSANZ",
+    "claim_type": "unauthorised_health_claim",
+    "match_mode": "contains",
+    "patterns": [],
+    "verdict": "amber",
+    "reason": "A food health claim that is not already permitted or does not meet its conditions needs regulatory review.",
+    "source": {
+      "document": "Sources & Logic - AUS.docx",
+      "section": "3.1 - Reclassification trigger catalog",
+      "excerpt": "Unauthorised health claim (food): provide warning and advise needs to be submitted for FSANZ pre-approval."
+    }
+  }
+]
