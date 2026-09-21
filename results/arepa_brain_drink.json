@@ -1,0 +1,714 @@
+{
+  "product": {
+    "slug": "arepa_brain_drink",
+    "name": "Arepa Brain Drink",
+    "market": "AU",
+    "authority": "FSANZ",
+    "tier": null
+  },
+  "input_type": "raw_text",
+  "input_file": "inputs/arepa_brain_drink.txt",
+  "stable": true,
+  "runs": [
+    {
+      "run": 1,
+      "claims": [
+        {
+          "claim": "helps your brain keep calm and clear by reducing tiredness and supporting normal psychological and neurological function",
+          "verdict": "red",
+          "status": "matched_rule",
+          "reason": "The wording presents an unqualified health relationship that is not supported by a matching permitted or notified FSANZ claim in the scoped rule set.",
+          "rule_id": "AU-FSANZ-CLAIM-002",
+          "authority": "FSANZ",
+          "claim_type": "unauthorised_health_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Food-side",
+            "page": null,
+            "excerpt": "Food health claim not permitted / conditions not met."
+          }
+        },
+        {
+          "claim": "Developed by neuroscientists with clinically researched ingredients, this is a drink for everyone with a brain.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "Drinking ?repa helps your brain keep calm and clear by reducing tiredness and supporting normal psychological and neurological function thanks to the high Vitamin C content in our Neuroberry(R) Blackcurrants as part of a healthy and varied diet.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "Natural",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "An absolute natural claim depends on factual substantiation, so it is kept for review rather than treated as automatically compliant.",
+          "rule_id": "AU-FSANZ-CLAIM-003",
+          "authority": "FSANZ",
+          "claim_type": "substantiation_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food / Advertising",
+            "page": null,
+            "excerpt": "Claims must be true and not misleading under Australian Consumer Law (ACCC)."
+          }
+        },
+        {
+          "claim": "Caffeine Free",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "Only 1.8g sugar in each serving",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "Lite & sparkling blackcurrant flavour",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "Formulated by our world-renowned neuroscientist",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "With 208mg of L-theanine in every can",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "27% RDI Vitamin C",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "26 Cups Green Tea equivalent of L-theanine",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "1.25 kg Fruit & Vegetable Flavonoids",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "Neuroberry - Blackcurrants have polyphenols plus unusually high levels of vitamin C (an antioxidant) for a berry fruit, even higher than blueberries, raspberries and strawberries.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "L-theanine - A rare amino acid. It is isolated from green tea via a fermentation process, allowing it to be caffeine-free.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "Enzogenol - an ultra-pure extract from the bark of New Zealand grown pine trees; a broad-spectrum polyphenol extract, containing many different flavonoid compounds including oligomeric proanthocyanidins (an antioxidant).",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "The Brain Drink for calm & clarity",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "Designed & tested by neuroscientists",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "100% natural caffeine free",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "Made in Aotearoa, New Zealand.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "GREAT MINDS DRINK ALIKE",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "When you're calmer, clearer, faster, happier, you're more productive. Our clinically researched? natural ingredients, help support neurological function and cognitive performance.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "This is the drink for everyone with a brain.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "Supplemented Food. Patented Formula.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "claims": [
+        {
+          "claim": "helps your brain keep calm and clear by reducing tiredness and supporting normal psychological and neurological function",
+          "verdict": "red",
+          "status": "matched_rule",
+          "reason": "The wording presents an unqualified health relationship that is not supported by a matching permitted or notified FSANZ claim in the scoped rule set.",
+          "rule_id": "AU-FSANZ-CLAIM-002",
+          "authority": "FSANZ",
+          "claim_type": "unauthorised_health_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Reclassification triggers - Food-side",
+            "page": null,
+            "excerpt": "Food health claim not permitted / conditions not met."
+          }
+        },
+        {
+          "claim": "Developed by neuroscientists with clinically researched ingredients, this is a drink for everyone with a brain.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "Drinking ?repa helps your brain keep calm and clear by reducing tiredness and supporting normal psychological and neurological function thanks to the high Vitamin C content in our Neuroberry(R) Blackcurrants as part of a healthy and varied diet.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "Natural",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "An absolute natural claim depends on factual substantiation, so it is kept for review rather than treated as automatically compliant.",
+          "rule_id": "AU-FSANZ-CLAIM-003",
+          "authority": "FSANZ",
+          "claim_type": "substantiation_required",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food / Advertising",
+            "page": null,
+            "excerpt": "Claims must be true and not misleading under Australian Consumer Law (ACCC)."
+          }
+        },
+        {
+          "claim": "Caffeine Free",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "Only 1.8g sugar in each serving",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "Lite & sparkling blackcurrant flavour",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "Formulated by our world-renowned neuroscientist",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "With 208mg of L-theanine in every can",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "27% RDI Vitamin C",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "26 Cups Green Tea equivalent of L-theanine",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "1.25 kg Fruit & Vegetable Flavonoids",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "Neuroberry - Blackcurrants have polyphenols plus unusually high levels of vitamin C (an antioxidant) for a berry fruit, even higher than blueberries, raspberries and strawberries.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "L-theanine - A rare amino acid. It is isolated from green tea via a fermentation process, allowing it to be caffeine-free.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "Enzogenol - an ultra-pure extract from the bark of New Zealand grown pine trees; a broad-spectrum polyphenol extract, containing many different flavonoid compounds including oligomeric proanthocyanidins (an antioxidant).",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "The Brain Drink for calm & clarity",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "Designed & tested by neuroscientists",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "100% natural caffeine free",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "Made in Aotearoa, New Zealand.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "GREAT MINDS DRINK ALIKE",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "When you're calmer, clearer, faster, happier, you're more productive. Our clinically researched? natural ingredients, help support neurological function and cognitive performance.",
+          "verdict": "amber",
+          "status": "matched_rule",
+          "reason": "This wording requires an applicable FSANZ condition, notified health claim, or factual substantiation before a confident compliant verdict can be given.",
+          "rule_id": "AU-FSANZ-CLAIM-001",
+          "authority": "FSANZ",
+          "claim_type": "conditional_health_or_substantiation_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "Part 3 - Claim structure & matching - FSANZ",
+            "page": null,
+            "excerpt": "FSANZ: must follow either the claims permitted per schedule / by meeting input criteria or be applied for with FSANZ directly"
+          }
+        },
+        {
+          "claim": "This is the drink for everyone with a brain.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        },
+        {
+          "claim": "Supplemented Food. Patented Formula.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is factual, compositional, identity/origin, or non-therapeutic marketing copy and does not trigger the health-claim rules handled above.",
+          "rule_id": "AU-FSANZ-CLAIM-004",
+          "authority": "FSANZ",
+          "claim_type": "non_therapeutic_food_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "FOOD-1 - General Food",
+            "page": null,
+            "excerpt": "Presented as food (beverage, bar, meal, snack) · nutrition/sustenance/enjoyment purpose · makes only nutrition-content or health claims — no therapeutic indication."
+          }
+        }
+      ]
+    }
+  ]
+}

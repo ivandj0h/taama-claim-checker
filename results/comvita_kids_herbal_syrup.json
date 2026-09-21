@@ -1,0 +1,594 @@
+{
+  "product": {
+    "slug": "comvita_kids_herbal_syrup",
+    "name": "Comvita Kids Herbal Syrup",
+    "market": "AU",
+    "authority": "TGA",
+    "tier": "aust_l"
+  },
+  "input_type": "raw_text",
+  "input_file": "inputs/comvita_kids_herbal_syrup.txt",
+  "stable": true,
+  "runs": [
+    {
+      "run": 1,
+      "claims": [
+        {
+          "claim": "with IVY LEAF EXTRACT a gentle plant ingredient",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "SYRUP WITH MULTIFLORAL AND MANUKA HONEY",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "GENTLE HONEY",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "No Artificial Flavours or Colours",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Gluten Free",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Contains 10% UMF ™ 10+ Ma-nuka Honey",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "ORANGE FLAVOURED",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "VITAMINS C, D & ZINC important nutrients for kids’ healthy growth & development",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped claim maps to the consultant-provided permitted vitamin/mineral support indication.",
+          "rule_id": "AU-TGA-CLAIM-003",
+          "authority": "TGA",
+          "claim_type": "permitted_vitamin_support_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L / Claims / indications",
+            "page": null,
+            "excerpt": "Low-level permitted indications only."
+          }
+        },
+        {
+          "claim": "The UMF ™ rating system independently certiﬁes natural components found in Ma¯ nuka Honey to assure potency, purity, authenticity, & freshness.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "MADE IN NEW ZEALAND from local and imported ingredients.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "HEY HONEY BEARS!",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Parents around the world use honey in delicious ways to care for their little ones.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "[Kids syrup product name] with Manuka Honey, Ivy Leaf, Vitamins C, D & Zinc is a tasty way to support your child’s daily routine.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Also available: [Kids night-time syrup product name] with Chamomile – a gentle addition to your child’s bedtime routine.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Together, [Kids syrup product name] are a delicious way to care for and support your little ones throughout the day and night.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "In 1990, we began beekeeping together with a passion for connecting people to nature and good health.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Over 100 years later, our commitment to the craft continues, sharing one of nature’s special gifts from our remote and pristine forests.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "UMF™ 10+ Mānuka Honey is scientifically tested to contain a minimum 263 mg/kg of Methylglyoxal (MGO), a naturally occurring compound in Mānuka Honey.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Contains 10% UMF™ 10+ Mānuka Honey",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "claims": [
+        {
+          "claim": "with IVY LEAF EXTRACT a gentle plant ingredient",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "SYRUP WITH MULTIFLORAL AND MANUKA HONEY",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "GENTLE HONEY",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "No Artificial Flavours or Colours",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Gluten Free",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Contains 10% UMF ™ 10+ Ma-nuka Honey",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "ORANGE FLAVOURED",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "VITAMINS C, D & ZINC important nutrients for kids’ healthy growth & development",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped claim maps to the consultant-provided permitted vitamin/mineral support indication.",
+          "rule_id": "AU-TGA-CLAIM-003",
+          "authority": "TGA",
+          "claim_type": "permitted_vitamin_support_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L / Claims / indications",
+            "page": null,
+            "excerpt": "Low-level permitted indications only."
+          }
+        },
+        {
+          "claim": "The UMF ™ rating system independently certiﬁes natural components found in Ma¯ nuka Honey to assure potency, purity, authenticity, & freshness.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "MADE IN NEW ZEALAND from local and imported ingredients.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "HEY HONEY BEARS!",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Parents around the world use honey in delicious ways to care for their little ones.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "[Kids syrup product name] with Manuka Honey, Ivy Leaf, Vitamins C, D & Zinc is a tasty way to support your child’s daily routine.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Also available: [Kids night-time syrup product name] with Chamomile – a gentle addition to your child’s bedtime routine.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Together, [Kids syrup product name] are a delicious way to care for and support your little ones throughout the day and night.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "In 1990, we began beekeeping together with a passion for connecting people to nature and good health.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Over 100 years later, our commitment to the craft continues, sharing one of nature’s special gifts from our remote and pristine forests.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "UMF™ 10+ Mānuka Honey is scientifically tested to contain a minimum 263 mg/kg of Methylglyoxal (MGO), a naturally occurring compound in Mānuka Honey.",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        },
+        {
+          "claim": "Contains 10% UMF™ 10+ Mānuka Honey",
+          "verdict": "green",
+          "status": "matched_rule",
+          "reason": "The scoped wording is treated as non-therapeutic factual, compositional, identity/origin, or marketing copy and does not trigger the therapeutic rules handled above.",
+          "rule_id": "AU-TGA-CLAIM-007",
+          "authority": "TGA",
+          "claim_type": "non_therapeutic_label_claim",
+          "source": {
+            "document": "Sources & Logic - AUS.docx",
+            "section": "TGA-1 - AUST L - Claims / indications",
+            "page": null,
+            "excerpt": "No free-text or therapeutic (serious-disease) claims."
+          }
+        }
+      ]
+    }
+  ]
+}
