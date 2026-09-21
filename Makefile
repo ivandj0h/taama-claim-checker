@@ -1,6 +1,6 @@
-.PHONY: makeup down logs test
+.PHONY: up down logs test status
 
-makeup:
+up:
 	docker compose up --build -d
 
 down:
@@ -8,6 +8,9 @@ down:
 
 logs:
 	docker compose logs -f
+
+status:
+	docker compose ps
 
 test:
 	docker compose run --rm app pytest
