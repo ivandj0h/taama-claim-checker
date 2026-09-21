@@ -1,0 +1,734 @@
+{
+  "source": "Claims - Ground Truth.xlsx",
+  "market": "AU",
+  "products": [
+    {
+      "slug": "comvita_kids_herbal_syrup",
+      "name": "Comvita Kids Herbal Syrup",
+      "claims": [
+        {
+          "claim_id": "PROD-001-C01",
+          "claim": "with IVY LEAF EXTRACT a gentle plant ingredient",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": "odd descriptor, I wouldn't say it is not allowed but it may be seen as deceptive according to ACCC.",
+          "source_row": 40
+        },
+        {
+          "claim_id": "PROD-001-C02",
+          "claim": "SYRUP WITH MULTIFLORAL AND MANUKA HONEY",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 41
+        },
+        {
+          "claim_id": "PROD-001-C03",
+          "claim": "GENTLE HONEY",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": "odd descriptor, I wouldn't say it is not allowed but it may be seen as deceptive according to ACCC.",
+          "source_row": 42
+        },
+        {
+          "claim_id": "PROD-001-C04",
+          "claim": "No Artificial Flavours or Colours",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 43
+        },
+        {
+          "claim_id": "PROD-001-C05",
+          "claim": "Gluten Free",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": "needs to be validated with testing",
+          "source_row": 44
+        },
+        {
+          "claim_id": "PROD-001-C06",
+          "claim": "Contains 10% UMF ™ 10+ Ma-nuka Honey",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 45
+        },
+        {
+          "claim_id": "PROD-001-C07",
+          "claim": "ORANGE FLAVOURED",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": " n/a",
+          "comment": null,
+          "source_row": 46
+        },
+        {
+          "claim_id": "PROD-001-C08",
+          "claim": "VITAMINS C, D & ZINC important nutrients for kids’ healthy growth & development",
+          "claim_type": "therapeutic",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "Maintain/support (state vitamin/mineral) within normal range",
+          "comment": null,
+          "source_row": 47
+        },
+        {
+          "claim_id": "PROD-001-C09",
+          "claim": "The UMF ™ rating system independently certiﬁes natural components found in Ma¯ nuka Honey to assure potency, purity, authenticity, & freshness.",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 48
+        },
+        {
+          "claim_id": "PROD-001-C10",
+          "claim": "MADE IN NEW ZEALAND from local and imported ingredients.",
+          "claim_type": "identity_or_origin",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 49
+        },
+        {
+          "claim_id": "PROD-001-C11",
+          "claim": "HEY HONEY BEARS!",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 50
+        },
+        {
+          "claim_id": "PROD-001-C12",
+          "claim": "Parents around the world use honey in delicious ways to care for their little ones.",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 51
+        },
+        {
+          "claim_id": "PROD-001-C13",
+          "claim": "[Kids syrup product name] with Manuka Honey, Ivy Leaf, Vitamins C, D & Zinc is a tasty way to support your child’s daily routine.",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 52
+        },
+        {
+          "claim_id": "PROD-001-C14",
+          "claim": "Also available: [Kids night-time syrup product name] with Chamomile – a gentle addition to your child’s bedtime routine.",
+          "claim_type": "other",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 53
+        },
+        {
+          "claim_id": "PROD-001-C15",
+          "claim": "Together, [Kids syrup product name] are a delicious way to care for and support your little ones throughout the day and night.",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 54
+        },
+        {
+          "claim_id": "PROD-001-C16",
+          "claim": "In 1990, we began beekeeping together with a passion for connecting people to nature and good health.",
+          "claim_type": "identity_or_origin",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 55
+        },
+        {
+          "claim_id": "PROD-001-C17",
+          "claim": "Over 100 years later, our commitment to the craft continues, sharing one of nature’s special gifts from our remote and pristine forests.",
+          "claim_type": "identity_or_origin",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 56
+        },
+        {
+          "claim_id": "PROD-001-C18",
+          "claim": "UMF™ 10+ Mānuka Honey is scientifically tested to contain a minimum 263 mg/kg of Methylglyoxal (MGO), a naturally occurring compound in Mānuka Honey.",
+          "claim_type": "nutrition_content",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 57
+        },
+        {
+          "claim_id": "PROD-001-C19",
+          "claim": "Contains 10% UMF™ 10+ Mānuka Honey",
+          "claim_type": "nutrition_content",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "n/a",
+          "comment": null,
+          "source_row": 58
+        }
+      ]
+    },
+    {
+      "slug": "arepa_brain_drink",
+      "name": "Arepa Brain Drink",
+      "claims": [
+        {
+          "claim_id": "W1-008-C01",
+          "claim": "helps your brain keep calm and clear by reducing tiredness and supporting normal psychological and neurological function",
+          "claim_type": "therapeutic",
+          "expected_verdict": "red",
+          "source_verdict": "N",
+          "permitted_indication": "Contributes to normal functioning of the nervous system",
+          "comment": null,
+          "source_row": 47
+        },
+        {
+          "claim_id": "W1-008-C01a",
+          "claim": "Developed by neuroscientists with clinically researched ingredients, this is a drink for everyone with a brain.",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 48
+        },
+        {
+          "claim_id": "W1-008-C02",
+          "claim": "Drinking ?repa helps your brain keep calm and clear by reducing tiredness and supporting normal psychological and neurological function thanks to the high Vitamin C content in our Neuroberry(R) Blackcurrants as part of a healthy and varied diet.",
+          "claim_type": "therapeutic",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "requires a submission as a notified food claim",
+          "source_row": 49
+        },
+        {
+          "claim_id": "W1-008-C03",
+          "claim": "Natural",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if accurate",
+          "source_row": 50
+        },
+        {
+          "claim_id": "W1-008-C04",
+          "claim": "Caffeine Free",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 51
+        },
+        {
+          "claim_id": "W1-008-C05",
+          "claim": "Only 1.8g sugar in each serving",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "no added sugar",
+          "comment": null,
+          "source_row": 52
+        },
+        {
+          "claim_id": "W1-008-C06",
+          "claim": "Lite & sparkling blackcurrant flavour",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 53
+        },
+        {
+          "claim_id": "W1-008-C07",
+          "claim": "Formulated by our world-renowned neuroscientist",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 54
+        },
+        {
+          "claim_id": "W1-008-C08",
+          "claim": "With 208mg of L-theanine in every can",
+          "claim_type": "nutrition_content",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 55
+        },
+        {
+          "claim_id": "W1-008-C09",
+          "claim": "27% RDI Vitamin C",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "Vitamin or mineral nutrition content claim",
+          "comment": null,
+          "source_row": 56
+        },
+        {
+          "claim_id": "W1-008-C10",
+          "claim": "26 Cups Green Tea equivalent of L-theanine",
+          "claim_type": "compositional",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if accurate and can be substantiated",
+          "source_row": 57
+        },
+        {
+          "claim_id": "W1-008-C11",
+          "claim": "1.25 kg Fruit & Vegetable Flavonoids",
+          "claim_type": "compositional",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if accurate and can be substantiated",
+          "source_row": 58
+        },
+        {
+          "claim_id": "W1-008-C12",
+          "claim": "Neuroberry - Blackcurrants have polyphenols plus unusually high levels of vitamin C (an antioxidant) for a berry fruit, even higher than blueberries, raspberries and strawberries.",
+          "claim_type": "compositional",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if accurate and can be substantiated",
+          "source_row": 59
+        },
+        {
+          "claim_id": "W1-008-C13",
+          "claim": "L-theanine - A rare amino acid. It is isolated from green tea via a fermentation process, allowing it to be caffeine-free.",
+          "claim_type": "identity_or_origin",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 60
+        },
+        {
+          "claim_id": "W1-008-C14",
+          "claim": "Enzogenol - an ultra-pure extract from the bark of New Zealand grown pine trees; a broad-spectrum polyphenol extract, containing many different flavonoid compounds including oligomeric proanthocyanidins (an antioxidant).",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 61
+        },
+        {
+          "claim_id": "W1-008-C15",
+          "claim": "The Brain Drink for calm & clarity",
+          "claim_type": "therapeutic",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "needs to be approved as a notified claim",
+          "source_row": 62
+        },
+        {
+          "claim_id": "W1-008-C16",
+          "claim": "Designed & tested by neuroscientists",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 63
+        },
+        {
+          "claim_id": "W1-008-C17",
+          "claim": "100% natural caffeine free",
+          "claim_type": "compositional",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if accurate and can be substantiated",
+          "source_row": 64
+        },
+        {
+          "claim_id": "W1-008-C18",
+          "claim": "Made in Aotearoa, New Zealand.",
+          "claim_type": "identity_or_origin",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 65
+        },
+        {
+          "claim_id": "W1-008-C19",
+          "claim": "GREAT MINDS DRINK ALIKE",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 66
+        },
+        {
+          "claim_id": "W1-008-C20",
+          "claim": "When you're calmer, clearer, faster, happier, you're more productive. Our clinically researched? natural ingredients, help support neurological function and cognitive performance.",
+          "claim_type": "therapeutic",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": "Contributes to normal cognitive function",
+          "comment": "needs to be approved as a notified claim",
+          "source_row": 67
+        },
+        {
+          "claim_id": "W1-008-C21",
+          "claim": "This is the drink for everyone with a brain.",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 68
+        },
+        {
+          "claim_id": "W1-008-C22",
+          "claim": "Supplemented Food. Patented Formula.",
+          "claim_type": "identity_or_origin",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 69
+        }
+      ]
+    },
+    {
+      "slug": "seed_am_02",
+      "name": "Seed AM-02 Energy + Focus",
+      "claims": [
+        {
+          "claim_id": "W1-006-C01",
+          "claim": "Fast-acting energy within 1 hour",
+          "claim_type": "therapeutic",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if this is factual and can be substantiated ",
+          "source_row": 58
+        },
+        {
+          "claim_id": "W1-006-C02",
+          "claim": "Energy support for your body",
+          "claim_type": "therapeutic",
+          "expected_verdict": "red",
+          "source_verdict": "N",
+          "permitted_indication": "Maintain/support (state vitamin/mineral) within normal range",
+          "comment": "needs to match the specific claims permitted on the registry",
+          "source_row": 59
+        },
+        {
+          "claim_id": "W1-006-C03",
+          "claim": "Support for the gut-brain axis",
+          "claim_type": "therapeutic",
+          "expected_verdict": "red",
+          "source_verdict": "N",
+          "permitted_indication": "Maintain/support (state vitamin/mineral) within normal range",
+          "comment": "needs to match the specific claims permitted on the registry",
+          "source_row": 60
+        },
+        {
+          "claim_id": "W1-006-C04",
+          "claim": "Caffeine-free",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 61
+        },
+        {
+          "claim_id": "W1-006-C05",
+          "claim": "Less than $1.50 per serving",
+          "claim_type": "other",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 62
+        },
+        {
+          "claim_id": "W1-006-C06",
+          "claim": "2-in-1 Formulation for Lasting Energy",
+          "claim_type": "other",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 63
+        },
+        {
+          "claim_id": "W1-006-C07",
+          "claim": "Seed's ViaCap delivery system is engineered for targeted nutrient delivery along the GI tract.",
+          "claim_type": "therapeutic",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if this is factual and can be substantiated ",
+          "source_row": 64
+        },
+        {
+          "claim_id": "W1-006-C08",
+          "claim": "Nootropics from ginseng root, theacrine, and methylliberine sustain energy and sharpen focus.",
+          "claim_type": "therapeutic",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "requires AUSTL-A",
+          "source_row": 65
+        },
+        {
+          "claim_id": "W1-006-C09",
+          "claim": "Prebiotics from Japanese wasabi, B vitamins, and a gut-brain postbiotic.",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 66
+        },
+        {
+          "claim_id": "W1-006-C10",
+          "claim": "Energy That Peaks Without the Crash",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if this is factual and can be substantiated ",
+          "source_row": 67
+        },
+        {
+          "claim_id": "W1-006-C11",
+          "claim": "A fast-acting nootropic compound derived from kucha, a wild pu'er tea.",
+          "claim_type": "other",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if this is factual and can be substantiated ",
+          "source_row": 68
+        },
+        {
+          "claim_id": "W1-006-C12",
+          "claim": "A clinically proven adaptogen that promotes focus and calming sensations during daily stress.",
+          "claim_type": "therapeutic",
+          "expected_verdict": "red",
+          "source_verdict": "N",
+          "permitted_indication": "Adaptogen/Help body adapt to stress",
+          "comment": "requires AUSTL-A if trying to make a claim beyond the permissible indications registry",
+          "source_row": 69
+        },
+        {
+          "claim_id": "W1-006-C13",
+          "claim": "A natural, tea-derived compound with a molecular structure similar to caffeine.",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 70
+        },
+        {
+          "claim_id": "W1-006-C14",
+          "claim": "Safe to take with coffee or tea.",
+          "claim_type": "other",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if this is factual and can be substantiated ",
+          "source_row": 71
+        },
+        {
+          "claim_id": "W1-006-C15",
+          "claim": "With Ginseng Root, B Vitamins, and Multi-Peak Energy Complex",
+          "claim_type": "compositional",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 72
+        },
+        {
+          "claim_id": "W1-006-C16",
+          "claim": "Delivers fast-acting and sustained energy",
+          "claim_type": "therapeutic",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if this is factual and can be substantiated ",
+          "source_row": 73
+        },
+        {
+          "claim_id": "W1-006-C17",
+          "claim": "Improves cognitive function in 1 hr",
+          "claim_type": "therapeutic",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "enhance / improve /increase cognitive performance",
+          "comment": null,
+          "source_row": 74
+        },
+        {
+          "claim_id": "W1-006-C18",
+          "claim": "Increases attention for up to 6 hrs",
+          "claim_type": "therapeutic",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if this is factual and can be substantiated ",
+          "source_row": 75
+        },
+        {
+          "claim_id": "W1-006-C19",
+          "claim": "Consistent, daily use unlocks the full benefits of AM-02. When and how you feel results may vary based on your body and physiology. Maintain your routine for improved impact over time.",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if these actives are proven safe, then you may say this however TGA doesn't look favourable on any AUSTL encouraging long term use (dependence)",
+          "source_row": 76
+        },
+        {
+          "claim_id": "W1-006-C20",
+          "claim": "Unlock Energy That Lasts",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 77
+        },
+        {
+          "claim_id": "W1-006-C21",
+          "claim": "Works within 1 hour, lasts for up to 6 hours",
+          "claim_type": "therapeutic",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if this is factual and can be substantiated ",
+          "source_row": 78
+        },
+        {
+          "claim_id": "W1-006-C22",
+          "claim": "Sustained, caffeine-free energy",
+          "claim_type": "marketing_puffery",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": null,
+          "comment": null,
+          "source_row": 79
+        },
+        {
+          "claim_id": "W1-006-C23",
+          "claim": "Improves focus and attention",
+          "claim_type": "therapeutic",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "enhance / improve /increase cognitive performance",
+          "comment": "incorrect wording or requires AUSTL-A",
+          "source_row": 80
+        },
+        {
+          "claim_id": "W1-006-C24",
+          "claim": "Combats brain fog and mental fatigue",
+          "claim_type": "therapeutic",
+          "expected_verdict": "green",
+          "source_verdict": "Y",
+          "permitted_indication": "decrease/reduce / maintain mental fatigue",
+          "comment": "incorrect wording or requires AUSTL-A",
+          "source_row": 81
+        },
+        {
+          "claim_id": "W1-006-C25",
+          "claim": "Benefits That Build Over Time",
+          "claim_type": "other",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if this is factual and can be substantiated ",
+          "source_row": 82
+        },
+        {
+          "claim_id": "W1-006-C26",
+          "claim": "AM-02 delivers both immediate effects and restores optimal energy levels with consistent daily use.",
+          "claim_type": "other",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": null,
+          "comment": "if this is factual and can be substantiated ",
+          "source_row": 83
+        },
+        {
+          "claim_id": "W1-006-C27",
+          "claim": "Improves focus and attention for up to 6 hours.",
+          "claim_type": "therapeutic",
+          "expected_verdict": "amber",
+          "source_verdict": "with_conditions",
+          "permitted_indication": "enhance / improve /increase cognitive performance",
+          "comment": "if this is factual and can be substantiated ",
+          "source_row": 84
+        },
+        {
+          "claim_id": "W1-006-C28",
+          "claim": "Builds resistance to stress to enhance cognitive performance.",
+          "claim_type": "therapeutic",
+          "expected_verdict": "red",
+          "source_verdict": "N",
+          "permitted_indication": "enhance / improve /increase cognitive performance",
+          "comment": "incorrect wording or requires AUSTL-A",
+          "source_row": 85
+        },
+        {
+          "claim_id": "W1-006-C29",
+          "claim": "Protects key structures of the brain to maintain mental function.",
+          "claim_type": "therapeutic",
+          "expected_verdict": "red",
+          "source_verdict": "N",
+          "permitted_indication": "maintain/support brain function",
+          "comment": "incorrect wording or requires AUSTL-A",
+          "source_row": 86
+        }
+      ]
+    }
+  ]
+}
